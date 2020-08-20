@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Countries",
+        "description": "A curated list of countries.",
+        "url": "data/countries.json"
+    },
+    {
+        "title": "Cities",
+        "description": "A curated list of cities.",
+        "url": "data/cities.json"
+    },
+    {
+        "title": "Timezones",
+        "description": "A curated list of timezones.",
+        "url": "data/timezone.json"
+    },
+    {
+        "title": "Country codes",
+        "description": "List of country and phone codes.",
+        "url": "data/countryCodes.json"
+    },
+    {
+        "title": "Currencies",
+        "description": "A curated list of currencies",
+        "url": "data/currencies.json"
+    },
+    {
+        "title": "World languages",
+        "description": "A curated list of languages",
+        "url": "data/languages.json"
+    }
+]
