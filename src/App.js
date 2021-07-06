@@ -10,8 +10,8 @@ class App extends Component {
         this.state = {
             lists,
             about: {
-                title: 'Lists',
-                description: 'Lists of lists'
+                title: 'Unlist',
+                description: 'Open Source lists of lists'
             }
         };
     }

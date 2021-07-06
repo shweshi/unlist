@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 class Table extends React.Component {
    constructor(props) {
@@ -33,7 +33,7 @@ class Table extends React.Component {
    render() {
       return (
          <div className="csv">
-            <h1 id='table-title'></h1>
+            <h1 id='table-title'>Heading</h1>
             <table id='table'>
                <tbody>
                   <tr>{this.renderTableHeader()}</tr>

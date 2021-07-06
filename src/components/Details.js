@@ -54,10 +54,10 @@ class Details extends Component {
                 <About about={this.state.about} />
                 <div className="details-title">
                     <span>JSON</span>
-                    <p className="download">Download full <a style={{ cursor: 'pointer' }} onClick={() => this.onDownloadJson(this.state.about.title + '.json', this.state.list.url)} className="downloadLink">{this.state.about.title}.json</a></p>
+                    <p className="download">Download full <a href="" style={{ cursor: 'pointer' }} onClick={() => this.onDownloadJson(this.state.about.title + '.json', this.state.list.url)} className="downloadLink">{this.state.about.title}.json</a></p>
                     <Json url={this.state.list.url} />
                     <span>CSV</span>
-                    <p className="download">Download full <a style={{ cursor: 'pointer' }} onClick={() => this.onDownloadCsv(this.state.about.title + '.csv', this.state.list.url)} className="downloadLink">{this.state.about.title}.csv</a></p>
+                    <p className="download">Download full <a href="" style={{ cursor: 'pointer' }} onClick={() => this.onDownloadCsv(this.state.about.title + '.csv', this.state.list.url)} className="downloadLink">{this.state.about.title}.csv</a></p>
                     <Table url={this.state.list.url} />
                 </div>
                 <Footer/>

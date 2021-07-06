@@ -1,3 +1,15 @@
+# Unlist
+Unlist is an open source lists of lists.
+
+# Current data sets
+- Cities
+- Countries
+- CountryCodes
+- Languages
+- Timezones
+
+# Development
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +78,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE OF CONDUCT](CODE_OF_CONDUCT.md) for details.
+
+### License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
+### Happy Coding!!!
