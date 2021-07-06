@@ -33,7 +33,6 @@ class Table extends React.Component {
    render() {
       return (
          <div className="csv">
-            <h1 id='table-title'>Heading</h1>
             <table id='table'>
                <tbody>
                   <tr>{this.renderTableHeader()}</tr>

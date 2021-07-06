@@ -25,7 +25,7 @@ class App extends Component {
                         <Card listsData={this.state.lists} />
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         )
     }

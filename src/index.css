@@ -1,65 +1,65 @@
-  body{
+  body {
     font-family: 'Nunito', sans-serif;
   }
+
   .row {
     margin-right: 15px;
     margin-left: 15px;
   }
-  .card{
-      border-radius: 4px;
-      background: #fff;
-      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+  .card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
     padding: 14px 80px 18px 36px;
     cursor: pointer;
     margin-bottom: 30px;
   }
-  
-  .card:hover{
-       transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
   }
-  
-  .card h3{
+
+  .card h3 {
     font-weight: 600;
   }
-  
-  .card img{
+
+  .card img {
     position: absolute;
     top: 20px;
     right: 15px;
     max-height: 120px;
   }
-  
-  .card-1{
-    background-image: url();
-        background-repeat: no-repeat;
-      background-position: right;
-      background-size: 80px;
+
+  .card-1 {
+    /* background-image: url(); */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
   }
-  
-  @media(max-width: 990px){
-    .card{
+
+  @media(max-width: 990px) {
+    .card {
       margin: 20px;
     }
   }
-  
+
   @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-  *,
-  *::before,
-  *::after {
+  *, *::before, *::after {
     margin: 0;
     padding: 0;
   }
-  
+
   body {
     background-color: #ffffff;
   }
-  
+
   br {
     margin-bottom: 2%;
   }
-  
+
   .about {
     background-color: #075ba5;
     width: 100%;
@@ -69,18 +69,22 @@
     clip-path: polygon(0 27%, 100% 0, 100% 100%, 0 100%);
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4"%3E%3Cpath fill="%239C92AC" fill-opacity="0.4" d="M1 3h1v1H1V3zm2-2h1v1H3V1z"%3E%3C/path%3E%3C/svg%3E');
   }
+
   .about__title {
     padding-top: 12rem;
     text-align: center;
   }
+
   .about__title--text {
     color: #fff;
     font-size: 60px;
   }
+
   .about__text {
     width: 80%;
     margin: 5% auto;
   }
+
   .about__text--content {
     color: #fff;
     text-align: center;
@@ -107,7 +111,7 @@
     text-align: center;
     font-family: arial, sans-serif;
   }
-  
+
   #table {
     text-align: center;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -115,17 +119,21 @@
     border: 3px solid #ddd;
     width: 95%;
   }
-  
+
   #table td, #table th {
     border: 1px solid #ddd;
     padding: 10px;
     font-size: 14px;
   }
-  
-  #table tr:nth-child(even){background-color: #f8f9fa;}
-  
-  #table tr:hover {background-color: #ddd;}
-  
+
+  #table tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+
+  #table tr:hover {
+    background-color: #ddd;
+  }
+
   #table th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -152,25 +160,25 @@
   .csv::-webkit-scrollbar {
     display: none;
   }
-  
+
   .csv {
     -ms-overflow-style: none;
   }
 
   .download {
-    font-size: 15px;  
+    font-size: 15px;
   }
 
-  .downloadLink {
-    color: #0678f3 !important
+  .downloadButton {
+    color: #0678f3 !important;
+    border: none;
+    background: none;
   }
 
   .footer {
     background: #28426d;
     color: #fff;
     text-align: center;
-    margin-top:calc(5% + 75px);
+    margin-top: calc(5% + 75px);
     padding: 2%;
   }
-
-  
