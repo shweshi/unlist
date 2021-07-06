@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <div class="footer">
-                <div>Copyright &copy; Nineleaps</div>
+                <div>Copyleft</div>
             </div>
         )
     }
